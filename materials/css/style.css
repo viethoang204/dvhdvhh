@@ -1,0 +1,11 @@
+/* GLOBAL */
+button {
+  cursor: pointer;
+}
+
+button:disabled,
+input:disabled,
+input:disabled + label {
+  cursor: not-allowed;
+  color: #ccc;
+}
